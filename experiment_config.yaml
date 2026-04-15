@@ -1,0 +1,42 @@
+experiment:
+  name: spatial_epidemic_forecasting
+
+dataset:
+  grid_size: 40
+  time_steps: 120
+
+simulation_parameters:
+  beta: 1.2
+  kappa: 0.5
+  gamma: 0.3
+  diffusion_E: 0.02
+  diffusion_I: 0.04
+
+forecasting:
+  history_window: 10
+  forecast_horizon: 1
+
+training:
+  epochs: 30
+  learning_rate: 0.001
+  batch_size: 32
+
+hardware:
+  device: cuda
+
+evaluation:
+  metrics:
+    - mse
+    - relative_l2
+    - peak_error
+
+experiments:
+  ablation_history_windows:
+    - 3
+    - 5
+    - 10
+
+  noise_levels:
+    - 0.0
+    - 0.01
+    - 0.05
