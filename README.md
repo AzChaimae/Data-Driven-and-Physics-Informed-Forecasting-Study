@@ -7,8 +7,6 @@ The framework combines **mechanistic epidemiological simulation**, **data-driven
 
 The implementation follows the experimental pipeline described in the accompanying research paper.
 
----
-
 ## Project Objective
 
 The goal of this framework is to compare different machine learning and Deep learning approaches for forecasting plant disease outbreaks using a **synthetic spatio-temporal dataset generated from a spatial SEIR epidemiological model**.
