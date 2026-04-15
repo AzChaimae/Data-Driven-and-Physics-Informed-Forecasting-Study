@@ -1,12 +1,3 @@
-# Data-Driven-and-Physics-Informed-Forecasting-Study
-# -*- coding: utf-8 -*-
-
-"""
-Created on Sun Mar  8 01:45:35 2026
-
-@author: AZROUMAHLI Chaimae
-"""
-
 # Data Driven and Physics Informed Forecasting Study : A Simulation Study of Agricultural Epidemics
 ## Machine Learning and Deep Learning Benchmark for Forecasting Agricultural Disease Epidemics
 
